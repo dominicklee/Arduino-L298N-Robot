@@ -74,8 +74,8 @@ void loop()
   delay(1000);
   
   //Move backward
-  setMotor(0, 0, 125);  //Set left motor, forward, 125 speed
-  setMotor(1, 0, 125);  //Set right motor, forward, 125 speed
+  setMotor(0, 1, 125);  //Set left motor, forward, 125 speed
+  setMotor(1, 1, 125);  //Set right motor, forward, 125 speed
   delay(2000);
   
   //Stop
