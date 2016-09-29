@@ -84,12 +84,12 @@ void loop()
   delay(1000);
   
   //Turn right
-  setMotor(0, 0, 100);  //Set left motor, forward, 100 speed
-  setMotor(1, 1, 100);  //Set right motor, backward, 100 speed
+  setMotor(0, 0, 125);  //Set left motor, forward, 100 speed
+  setMotor(1, 1, 125);  //Set right motor, backward, 100 speed
   delay(2000);
   
   //Turn left
-  setMotor(0, 1, 100);  //Set left motor, backward, 100 speed
-  setMotor(1, 0, 100);  //Set right motor, forward, 100 speed
+  setMotor(0, 1, 125);  //Set left motor, backward, 100 speed
+  setMotor(1, 0, 125);  //Set right motor, forward, 100 speed
   delay(2000);
 }
